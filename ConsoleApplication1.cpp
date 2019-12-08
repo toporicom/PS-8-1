@@ -4,11 +4,23 @@
 using namespace std;
 int main()
 {
-	int x, y,ll;
+	int x, y,ll,a,b;
 	cin >> x;
-	y = x * x * x * x * x + x * x * x * x + x * x * x + x * x + 25;
+	a = x-1;
 
-	cout << y;
+	while (a >x)
+	{
+		a--;
+	}
+		do
+		{
+
+		
+			b = a;
+			cout << b<<" ";
+			a = a - 1;
+		} while (a>0);
+		  
 
 cin >> ll;
 return 0;
